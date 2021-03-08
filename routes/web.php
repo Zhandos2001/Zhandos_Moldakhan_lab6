@@ -48,10 +48,10 @@ Route::get('/delete', function () {
 
 Route::get('/insert2', function () {
     $student1=new Student;
-    $student1->name='Azhar';
-    $student1->date_of_birth='2000-04-25';
-    $student1->GPA=3.2;
-    $student1->Adviser='Marzhan';
+    $student1->name='Dina';
+    $student1->date_of_birth='2001-04-20';
+    $student1->GPA=3.0;
+    $student1->Adviser='Rima';
     $student1->save();
 });
 
